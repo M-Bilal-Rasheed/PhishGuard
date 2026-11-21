@@ -1,0 +1,32 @@
+{
+  "model": "random_forest",
+  "params": {
+    "model__n_estimators": 400,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt",
+    "model__max_depth": 30
+  },
+  "use_tld": false,
+  "threshold": 0.62,
+  "trained_on_rows": 41214,
+  "test_metrics": {
+    "accuracy": 0.8988,
+    "precision": 0.9284,
+    "recall": 0.8573,
+    "f1": 0.8914,
+    "fpr": 0.0621,
+    "roc_auc": 0.9588,
+    "pr_auc": 0.9624,
+    "tp": 3021.0,
+    "fp": 233.0,
+    "tn": 3518.0,
+    "fn": 503.0
+  },
+  "future_recall": 0.8633,
+  "versions": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4"
+  }
+}

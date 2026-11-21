@@ -1,8 +1,23 @@
+# Python / Jupyter
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/raw/
 *.log
+
+# Secrets and local tools
 .env
 .claude/
+
+# Raw data: the CSVs are kept (notebook 02 and build_allowlist.py need them);
+# the cloned OpenPhish git history is not (collect_openphish_history.py re-creates it).
+data/raw/openphish_repo/
+
+# Team-only documents (shared separately, not part of the code repo)
+GUIDE.md
+ROADMAP.md
+preparation.md
+PhishGuard_Proposal.pdf
+PhishGuard_Proposal.docx
+CT-378 ML Project Guidelines.pdf
+Fall 2026 ML.xlsx
